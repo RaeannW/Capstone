@@ -1,0 +1,272 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.outer{
+  border-radius: 15px;
+  border: 2px solid black;
+  padding: 30px;
+  margin: 30px;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+.side{
+  flex: 20%;
+  /* background-color: #f1f1f1; */
+  padding: 20px;
+}
+.dotted-nav{
+  margin-top: 100px;
+  border-top: 2px dashed black;
+}
+.content{
+  flex: 80%;
+  background-color: rgb(243, 243, 243);
+  /* padding: 20px; */
+  border-radius: 15px;
+  border: 2px solid black;
+}
+@media screen and (max-width: 700px) {
+  .row{
+    flex-direction: column;
+  }
+}
+#logo{
+  width: 150px;
+  padding-top: 20px;
+}
+.contentOne{
+  flex: 60%;
+  /* background-color: purple; */
+  padding: 0 20px;
+  border-radius: 15px;
+}
+.contentTwo{
+  flex: 40%;
+  /* background-color: pink; */
+  padding: 20px;
+  border-radius: 15px;
+}
+.titleSettings{
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+}
+h1{
+  font-size: 60px;
+  font-family: "Damion", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+h2{
+  font-family: "Damion", cursive;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 30px;
+}
+.navMain{
+  display: flex;
+  flex-direction: column;
+}
+.subNavMain{
+  display: flex;
+}
+.navText{
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  display:inline-block;
+  margin:10px;
+}
+.dot {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: rgb(142, 142, 142);
+  display:inline-block;
+  margin:10px;
+}
+.navTextBottom{
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+}
+.socialIcon{
+  width: 15px;
+  margin-right: 10px;
+}
+.regText{
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+#themeButton{
+  margin: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+}
+.dotted{
+  border-top: 2px dashed black;
+  margin: 20px;
+
+}
+.greetingDate{
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+}
+.date{
+  margin-left: 30px;
+}
+.toDoList{
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid black;
+  margin: 20px;
+}
+.weather{
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid black;
+  line-height: 10px;
+  text-align: center;
+  margin: 20px;
+}
+#weatherText{
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.weatherText{
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.goals{
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid black;
+  line-height: 10px;
+  margin-top: 10px;
+  margin: 20px;
+}
+.noteHeader{
+  text-align: center;
+}
+.notes{
+  background-color: rgb(234, 234, 234);
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid black;
+  line-height: 10px;
+  margin-top: 10px;
+  margin: 20px;
+}
+.heartStarCircleSection{
+  padding: 10px;
+  text-align: center;
+  margin: 20px;
+}
+.heartStarCircle{
+  padding: 10px;
+  width: 80px;
+}
+.aboutImageRight{
+  padding: 10px;
+  line-height: 10px;
+  text-align: center;
+}
+.aboutImg{
+  padding: 0 20px;
+  flex: 50%;
+}
+.aboutImgOne{
+  margin: 20px;
+  width: 400px;
+}
+.rowAbout{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 20px;
+}
+.rowAboutTwo{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(234, 234, 234);
+  border-radius: 5px;
+  margin:  0 20px;
+}
+.about{
+  flex: 50%;
+  padding: 0 20px;
+  line-height: 20px;
+}
+.aboutTwoImg{
+  /* flex: 50%; */
+  /* background-color: blue; */
+  padding: 20px;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+.headingOne{
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 550;
+  font-style: normal;
+}
+.headingTwo{
+  margin-top: 40px;
+  font-size: 25px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 550;
+  font-style: normal;
+}
+.generalButton{
+  background-color: white;
+  padding: 10px;
+  border: none;
+}
+.contact{
+    flex: 50%;
+    padding: 0 20px;
+}
+.contactLeft{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 20px;
+}
+.contactRight{
+  padding: 0 20px;
+  flex: 50%;
+}
+.headingContact{
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 550;
+  font-style: normal;
+}
+.contactText{
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 10px;
+}
+
