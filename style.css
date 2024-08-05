@@ -33,11 +33,6 @@ body{
   border-radius: 15px;
   border: 2px solid black;
 }
-@media screen and (max-width: 700px) {
-  .row{
-    flex-direction: column;
-  }
-}
 #logo{
   width: 150px;
   padding-top: 20px;
@@ -50,7 +45,6 @@ body{
 }
 .contentTwo{
   flex: 40%;
-  /* background-color: pink; */
   padding: 20px;
   border-radius: 15px;
 }
@@ -269,4 +263,108 @@ h2{
   font-size: 20px;
   line-height: 10px;
 }
-
+input{
+  padding: 10px;
+  width: 250px;
+  border: solid 1px black;
+}
+.submitButton{
+  background-color: rgb(234, 234, 234);
+  padding: 10px;
+  border: solid 1px black;
+  margin: 20px 0;
+}
+@media (min-width: 550px) {
+  nav > .fa-bars {
+    display: none;
+  }
+}
+@media (max-width: 550px) {
+  .hidden--mobile {
+    display: none;
+  }
+}
+@media screen and (max-width: 700px) {
+  .row{
+    flex-direction: column;
+  }
+}
+@media (max-width: 550px) {
+  .row{
+    width: 100%;
+  }
+}
+@media (max-width: 550px) {
+  .content{
+    width: 100%;
+  }
+}
+@media (max-width: 550px) {
+  .content > .row{
+    width: 100%;
+  }
+}
+@media (max-width: 550px) {
+  .contentOne, .contentTwo{
+    width: 100%;
+  }
+}
+@media (max-width: 550px) {
+  #themeButton{
+    display: none;
+  }
+}
+@media (max-width: 550px) {
+  .heartStarCircleSection{
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+  }
+}
+@media (max-width: 550px) {
+  .heartStarCircle{
+    width: 40px;
+  }
+}
+@media (max-width: 550px) {
+  .headingOne{
+    line-height: 30px;
+  }
+}
+@media (max-width: 550px) {
+  img.aboutImgOne{
+    margin: 0px;
+    width: 100%;
+    padding: 0px;
+  }
+}
+@media (max-width: 550px) {
+  img.aboutTwoImg{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+  }
+}
+@media (max-width: 550px) {
+  .rowAboutTwo{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(243, 243, 243);
+    border-radius: 5px;
+    padding: 20px 0px;
+  }
+}
+@media (max-width: 550px) {
+  input{
+    padding: 10px;
+    width: 100%;
+    border: solid 1px black;
+  }
+}
+@media (max-width: 550px) {
+  .contactText{
+    width: 50%;
+    word-wrap: break-word;
+    line-height: 30px;;
+  }
+}

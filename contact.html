@@ -14,49 +14,58 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Damion&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
     rel="stylesheet">
-</head>
-<header>
-</header>
-
-<body>
-  <main>
-    <div class="outer">
-      <div class="row">
-        <div class="side">
-          <img id="logo" src="images/planPalLogo.png">
-          <div class="navMain">
-            <div class="subNavMain">
-              <span class="dot"></span>
-              <h3 class="navText">name</h3>
+  <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    rel="stylesheet"/>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"/>
+  </head>
+  <header>
+  </header>
+  <body>
+    <main>
+      <div class="outer">
+        <div class="row">
+          <div class="side">
+            <nav>
+              <i class="fas fa-bars"></i>
+              <div class="hidden--mobile nav-links">
+            <img id="logo" src="images/planPalLogo.png">
+            <div class="navMain">
+              <div class="subNavMain">
+                <span class="dot"></span>
+                <h3 class="navText">name</h3>
+              </div>
+              <div class="subNavMain">
+                <span class="dot"></span>
+                <a href="index.html">
+                  <h3 class="navText">daily</h3>
+                </a>
+              </div>
+              <div class="subNavMain">
+                <span class="dot"></span>
+                <h3 class="navText">weekly</h3>
+              </div>
+              <div class="subNavMain">
+                <span class="dot"></span>
+                <h3 class="navText">monthly</h3>
+              </div>
             </div>
-            <div class="subNavMain">
-              <span class="dot"></span>
-              <a href="index.html">
-                <h3 class="navText">daily</h3>
-              </a>
-            </div>
-            <div class="subNavMain">
-              <span class="dot"></span>
-              <h3 class="navText">weekly</h3>
-            </div>
-            <div class="subNavMain">
-              <span class="dot"></span>
-              <h3 class="navText">monthly</h3>
-            </div>
-          </div>
-          <hr class="dotted-nav">
-          <a href="about.html">
-            <h4 class="navTextBottom">about</h4>
-          </a>
-          <a href="contact.html">
-            <h4 class="navTextBottom">contact</h4>
-          </a>
-          <h4 class="navTextBottom">follow us:</h4>
-          <img class="socialIcon" src="images/Instagram.svg">
-          <img class="socialIcon" src="images/LinkedIn.svg">
-          <img class="socialIcon" src="images/GitHub.svg">
-          <img class="socialIcon" src="images/Pinterest.svg">
-          <h4 class="navTextBottom">Planpal app © 2024</h4>
+            <hr class="dotted-nav">
+            <a href="about.html">
+              <h4 class="navTextBottom">about</h4>
+            </a>
+            <a href="contact.html">
+              <h4 class="navTextBottom">contact</h4>
+            </a>
+            <h4 class="navTextBottom">follow us:</h4>
+            <img class="socialIcon" src="images/Instagram.svg">
+            <img class="socialIcon" src="images/LinkedIn.svg">
+            <img class="socialIcon" src="images/GitHub.svg">
+            <img class="socialIcon" src="images/Pinterest.svg">
+            <h4 class="navTextBottom">Planpal app © 2024</h4>
+        </nav>
         </div>
         <div class="content">
           <div class="row">
@@ -80,24 +89,29 @@
               <form>
                 <label for="fname">First name:</label><br>
                 <input type="text" id="fname" name="fname" value="First"><br>
-                <label for="fname">Last name:</label><br>
-                <input type="text" id="fname" name="fname" value="Last"><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname" value="Last"><br>
+                <label for="bday">Birthday:</label><br>
+                <input type="date" id="bday" name="bday" value="Bday"><br>
+                <label for="location">Location:</label><br>
+                <input type="text" id="location" name="location" value="Location"><br>
+                <input class="submitButton" type="submit" value="Submit">
               </form>
             </div>
             <div class="contactRight">
               <h3 class="headingContact">Contact Info</h3>
               <div class="subNavMain">
-                <img class="socialIcon" src="images/Instagram.svg">
+                <img class="socialIcon" src="images/mail.svg">
                 <a href="index.html">
                   <h3 class="contactText"><b>Email:</b> rae@raeanncreativedesign.com</h3>
                 </a>
               </div>
               <div class="subNavMain">
-                <img class="socialIcon" src="images/LinkedIn.svg">
+                <img class="socialIcon" src="images/phone.svg">
                 <h3 class="contactText"><b>Phone:</b> 636-395-1977</h3>
               </div>
               <div class="subNavMain">
-                <img class="socialIcon" src="images/GitHub.svg">
+                <img class="socialIcon" src="images/link.svg">
                 <h3 class="contactText"><b>Website:</b> raeanncreativedesign.com</h3>
               </div>
             </div>
@@ -107,6 +121,7 @@
     </div>
     </div>
   </main>
+  <script src="index.js"></script>
 </body>
 
 </html>
